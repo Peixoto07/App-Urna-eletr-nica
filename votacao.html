@@ -14,7 +14,12 @@
         <h2>Escolha seu cadidato</h2>
     </header>
     <section  class="section_candidatos">
-        <div class="box_candidato" >
+        
+        <div id="boxBranco" class="box_candidato display_off">
+            <img id="br" src="/imagens/votoBranco.svg" alt="">
+        </div>
+
+        <div id="teste" class="box_candidato" >
            <section>
                <img src="/imagens/img_ciro.png" alt="foto ciro gomes">
                    <ul>
@@ -27,7 +32,7 @@
     
         </div>
 
-        <div class="box_candidato">
+        <div  id="boxCandidato1" class="box_candidato">
             <section>
                <img src="/imagens/img_bolsonaro.png" alt="foto bolsonaro">
                <ul>
@@ -41,7 +46,7 @@
             
         </div>
 
-        <div class="box_candidato">
+        <div  id="boxCandidato2" class="box_candidato">
             <section>
                 <img src="/imagens/img_lula.png" alt="foto img_lula">
                 <ul>
@@ -55,7 +60,7 @@
         </div>
         
 
-        <div class="box_candidato">
+        <div  id="boxCandidato3" class="box_candidato">
             <section>
                 <img src="/imagens/img_ciro.png" alt="foto ciro gomes">
                 <ul>
@@ -85,12 +90,13 @@
         </div>
         
         <div id="acoes">
-            <div class="botao_branco">BRANCO</div>
-            <div class="botao_corrigir">CORRIGIR</div>
-            <div class="botao_confirmar">CONFIRMAR</div>
+            <div id="botao_branco" onclick="branco()">BRANCO</div>
+            <div id="botao_corrigir" onclick="corrigir()" >CORRIGIR</div>
+            <div id="botao_confirmar" onclick="confirmar()" >CONFIRMAR</div>
         </div>
     </section>
 
    </main>
 </body>
+<script src="/main.js" ></script>
 </html>

@@ -76,6 +76,7 @@ header{
     justify-content: space-between;
     align-items: flex-start;
     box-shadow: 0px 3px 8px -2px rgba(0,0,0,0.55);
+    transition: all ease .8s;
 }
 .box_candidato img{
     height: 85%;
@@ -178,23 +179,23 @@ header{
     cursor: pointer;
 }
 
-.botao_branco{
+#botao_branco{
     height:25% ;
     background-color:#fff;
     
 }
-.botao_corrigir{
+#botao_corrigir{
     height:25% ;
     background-color:#c30;
     color: #fff;
 }
-.botao_confirmar{
+#botao_confirmar{
     height:35% ;
     background-color:#3c6;
      color: #fff;
 }
 
-.botao_confirmar:hover{
+#botao_confirmar:hover{
     background-color:rgb(33, 170, 79);
 }
 
@@ -205,6 +206,33 @@ header{
     flex-wrap: nowrap;
     align-items: center;
 }
+
+.candidato_selecionado{
+    display: flex;
+    height: 95%;
+    width: 95%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    transition: all ease .8s;
+}
+
+.display_on{
+    display: flex;
+}
+
+.display_off{
+    display: none;
+
+}
+
+#boxBranco{
+   justify-content: center;
+}
+#boxBranco img{
+    height: 100%;
+    padding-left: 0;
+}
+
 
 
 /* display: flex;

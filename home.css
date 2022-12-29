@@ -13,7 +13,7 @@
 
 main{
     background-color: var(--primaria);
-    background-image: url("/imagens/faixas_bg.png");
+    background-image: url("imagens/faixas_bg.png");
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
